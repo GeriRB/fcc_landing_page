@@ -1,0 +1,133 @@
+.topnav-container {
+    display: flex;
+    width: 100%;
+}
+
+.topnav-col1 {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    justify-items: center;
+}
+
+.topnav-col2 {
+    display: flex;
+    flex: 8;
+    flex-direction: row-reverse;
+    padding-right: 4rem;
+}
+
+#header-img {
+    width: 100%;
+    vertical-align: middle;
+    padding-right: 5%;
+}
+
+.topnav-col2 a {
+    margin: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.topnav-col2 a:hover {
+    color: rgb(235, 216, 168);
+    text-decoration: underline;
+  }
+
+body {
+    width: 100%;
+    margin: 0;
+    background:
+        linear-gradient(rgba(36, 36, 36, 0.918),
+        rgba(36, 36, 36, 0.918)),
+        url("/images/rich-smith-685e1B55wr0-unsplash.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 100%;
+    font-family: 'Inria Serif', serif;
+    color: rgb(235, 216, 168);
+}
+
+header {
+    font-size: 1.15rem;
+    background-color: rgb(143, 127, 86);
+}
+
+#intro {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#email {
+    font-family: inherit;
+    padding: 0.5rem;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    width: 20rem;
+    font-size: 1rem;    
+    vertical-align: middle;
+    margin-bottom: 0.5em;
+    background-color: rgb(235, 216, 168);
+}
+
+#submit {
+    border: none;
+    vertical-align: middle;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 0.5em;
+    background-color: rgb(143, 127, 86);
+    border-radius: 2px;
+}
+
+#submit:hover {
+    background-color: rgb(235, 216, 168);
+}
+
+#intro {
+    padding-bottom: 8rem;
+}
+
+h1 {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color: rgb(143, 127, 86);
+}
+
+.row {
+    display: flex;
+    padding-top: 1.25em;
+    padding-bottom: 1.25em;
+    padding-right: 15%;
+}
+
+.column1 {
+    display: flex;
+    flex: 3;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.column2 {
+    display: flex;
+    flex: 7;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#features i {
+    padding-left: 4em;
+    font-size: 3.5rem;  
+    color: rgb(143, 127, 86);  
+}
+
+#features h2 {
+    margin: 0;
+    padding-bottom: 0.5em;
+}
